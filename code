@@ -1,0 +1,14 @@
+from gpiozero import DistanceSensor, LED
+from time import sleep
+
+sensor = DistanceSensor(24, 23)
+led = LED(13)
+
+while True:
+    print('Distance to nearest object is', sensor.distance, 'm')
+
+    if (sensor.distance <= .5):
+       led.on()
+       sleep(1)
+    else:
+        led.off()
