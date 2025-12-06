@@ -8,7 +8,7 @@ This shows how to wire the distance sensor. If the sensor smells like it's burni
 
 To test if everything is working copy this code.
 
-\`\`**from** **gpiozero** **import** DistanceSensor  
+\`\` **from** **gpiozero** **import** DistanceSensor  
 **from** **time** **import** sleep
 
 sensor \= DistanceSensor(23, 24)
