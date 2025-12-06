@@ -3,7 +3,9 @@ This project is a simple distance sensor that turns on a light. You will need a 
 
 First step is following this :[https://gpiozero.readthedocs.io/en/stable/recipes.html\#distance-sensor](https://gpiozero.readthedocs.io/en/stable/recipes.html#distance-sensor)  
 This shows how to wire the distance sensor. If the sensor smells like it's burning, then it's wired wrong. Try switching the 1st and 4th wires on the distance sensor.  
-![][image1]![][image2]  
+ ![20251202_122734](https://github.com/user-attachments/assets/22148847-79e4-4a48-bd54-c137113646ed)
+![20251202_122732](https://github.com/user-attachments/assets/570d2f60-dcf4-4eee-b7d9-e9b41605a4fd)
+
 To test if everything is working copy this code.
 
 \`\`**from** **gpiozero** **import** DistanceSensor  
